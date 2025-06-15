@@ -1,0 +1,30 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Python environment folders
+venv/
+env/
+.venv/
+.env/
+
+# macOS system files
+.DS_Store
+
+# DVC cache and temp files (auto-managed by DVC)
+.dvc/cache/
+.dvc/tmp/
+
+# Data files tracked by DVC should NOT be committed directly to Git
+data/raw/MachineLearningRating_v3.txt
+
+# Logs and temp files
+*.log
